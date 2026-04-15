@@ -27,7 +27,7 @@ This project does not try to fully reproduce the paper. Instead, it implements a
 
 ## Environment
 
-The environment is implemented in [`cyber_env.py`](/home/razco/Uni/AI-Agent-Project/cyber_env.py).
+The environment is implemented in `cyber_env.py`.
 
 It includes 5 states:
 
@@ -50,13 +50,13 @@ The goal is to move through the stages in the correct order and reach the final 
 
 ### Random Agent
 
-Implemented in [`random_agent_runner.py`](/home/razco/Uni/AI-Agent-Project/random_agent_runner.py).
+Implemented in `random_agent_runner.py`.
 
 This agent chooses actions randomly and does not learn.
 
 ### DQN Agent
 
-Implemented in [`dqn_agent_runner.py`](/home/razco/Uni/AI-Agent-Project/dqn_agent_runner.py).
+Implemented in `dqn_agent_runner.py`.
 
 This agent learns from experience using reinforcement learning.
 
@@ -71,7 +71,7 @@ The code is designed to run on **CPU only**, which is enough for this small proj
 
 ## Dataset
 
-The file [`data/netsecdata.csv`](/home/razco/Uni/AI-Agent-Project/data/netsecdata.csv) is used in a simplified way.
+The file `data/netsecdata.csv`.
 
 It is not used to train the DQN directly.
 
@@ -79,7 +79,7 @@ Instead, the code reads the dataset and uses it to estimate transition probabili
 
 ## Main File
 
-The main script is [`compare_agents.py`](/home/razco/Uni/AI-Agent-Project/compare_agents.py).
+The main script is `compare_agents.py`.
 
 It does the following:
 
@@ -107,12 +107,12 @@ The generated graphs are:
 
 ## Files
 
-- [`compare_agents.py`](/home/razco/Uni/AI-Agent-Project/compare_agents.py): main experiment
-- [`cyber_env.py`](/home/razco/Uni/AI-Agent-Project/cyber_env.py): environment and dataset handling
-- [`random_agent_runner.py`](/home/razco/Uni/AI-Agent-Project/random_agent_runner.py): random baseline agent
-- [`dqn_agent_runner.py`](/home/razco/Uni/AI-Agent-Project/dqn_agent_runner.py): DQN agent
-- [`requirements.txt`](/home/razco/Uni/AI-Agent-Project/requirements.txt): dependencies
-- [`data/netsecdata.csv`](/home/razco/Uni/AI-Agent-Project/data/netsecdata.csv): dataset
+- `compare_agents.py`: main experiment
+- `cyber_env.py`: environment and dataset handling
+- `random_agent_runner.py`: random baseline agent
+- `dqn_agent_runner.py`: DQN agent
+- `requirements.txt`: dependencies
+- `data/netsecdata.csv`: dataset
 
 ## Installation
 
