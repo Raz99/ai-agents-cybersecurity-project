@@ -1,4 +1,4 @@
-# AI Agents in Cybersecurity - Part 3
+# AI Agents in Cybersecurity
 
 ## Project Goal
 
